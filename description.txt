@@ -1,0 +1,13 @@
+Task was to create a class which checks whether the URI it receives as an input satisfies the requirements 
+set for it and if it does, the class returns certain elements it gets from the URI as key-value pairs. The 
+purpose of this is to validate that the request is coming from the right place and the returned key-value 
+pairs could be used to validate the request.
+
+My main challenge was with the client, as during my previous degree proper terminology wasn't used, so I am
+not entirely sure if my interpretation of client is what was wanted. I also wondered whether I should 
+check that payment number is six digits long and document id is seven characters and includes both numbers and 
+letters as in the examples given, but as this was not required in the directions, I left it out.
+
+I would further improve my solution by improving error handling especially in the method that returns URI
+parameters, refactoring the validateUri -function a little and removing unnecessary items from uriSplitList
+which is created from URI sections.
